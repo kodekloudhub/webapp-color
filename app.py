@@ -40,5 +40,7 @@ if __name__ == "__main__":
     parser.add_argument('--color', required=False, default='blue')
     args = parser.parse_args()
     
+    print("ArgParse color=" + args.color)
+    
     # Run Flask Application
     app.run(host="0.0.0.0", port=8080)

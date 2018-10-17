@@ -8,4 +8,4 @@ EXPOSE 8080
 
 WORKDIR /opt
 
-ENTRYPOINT python app.py
+ENTRYPOINT ["python", "app.py"]

@@ -8,7 +8,7 @@ EXPOSE 8080
 
 WORKDIR /opt
 
-ENV APP_COLOR=blue
-ENV VERSION=v1
+ENV APP_COLOR=green
+ENV VERSION=v2
 
 ENTRYPOINT ["python", "app.py"]

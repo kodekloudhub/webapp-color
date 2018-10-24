@@ -8,4 +8,6 @@ EXPOSE 8080
 
 WORKDIR /opt
 
+ENV APP_COLOR=
+
 ENTRYPOINT ["python", "app.py"]

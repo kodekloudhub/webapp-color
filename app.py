@@ -37,12 +37,12 @@ def color():
 
 @app.route("/version")
 def version():
-    return VERSION_FROM_ENV
+    return "Hello, Application Version: {}".format(VERSION_FROM_ENV)
 
 
 @app.route("/info")
 def info():
-    return "{} - {}".format(VERSION_FROM_ENV, COLOR)
+    return "Hello, Application Version: {} ; Color: {}".format(VERSION_FROM_ENV, COLOR)
 
 
 if __name__ == "__main__":

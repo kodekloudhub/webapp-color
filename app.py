@@ -40,6 +40,11 @@ def version():
     return VERSION_FROM_ENV
 
 
+@app.route("/info")
+def info():
+    return "{} - {}".format(VERSION_FROM_ENV, COLOR)
+
+
 if __name__ == "__main__":
 
     print(" This is a sample web application that displays a colored background. \n"

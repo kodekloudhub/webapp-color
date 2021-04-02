@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a Flask webapp that displays the name of the kubernetes pod that it runs on. The web page bckgroud supports several colors in order to make them stand out, easily.
+This is a Flask webapp that displays the name of the kubernetes pod that it runs on. The web page backgroud supports several colors in order to make them stand out, easily.
 
 ## Colors
 A color can be specified in two ways: as a command line argument with the `--color` parameter or as the enviroment variable `APP_COLOR`. 

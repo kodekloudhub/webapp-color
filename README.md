@@ -14,10 +14,10 @@ By default, the app will run choosing one of the supported colors, at random, if
 The following list of colors are supported
 | VAR | COLOR |
 |-----|:------|
-| red | #e74c3c |
-| green | #16a085 |
 | blue | #2980b9 |
 | blue2 | #30336b |
-| pink | #be2edd |
 | darkblue | #130f40 |
+| green | #16a085 |
+| pink | #be2edd |
+| red | #e74c3c |
 | yellow | #fff380 |

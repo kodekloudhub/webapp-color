@@ -1,2 +1,3 @@
 # ignore all md markdown files
 *.md
+**/Dockerfile*

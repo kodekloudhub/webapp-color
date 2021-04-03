@@ -7,14 +7,15 @@ import argparse
 
 app = Flask(__name__)
 
+# Combination of background and text color
 color_codes = {
-    "red": "#e74c3c",
-    "green": "#16a085",
-    "blue": "#2980b9",
-    "blue2": "#30336b",
-    "pink": "#be2edd",
-    "darkblue": "#130f40",
-    "yellow": "#fff380"
+      "red": ("#e74c3c", "#e4e4e4"),
+    "green": ("#16a085", "#e4e4e4"),
+     "blue": ("#2980b9", "#e4e4e4"),
+    "blue2": ("#30336b", "#e4e4e4"),
+     "pink": ("#be2edd", "#e4e4e4"),
+ "darkblue": ("#130f40", "#e4e4e4"),
+   "yellow": ("#fff380", "#097054")
 }
 
 SUPPORTED_COLORS = ",".join(color_codes.keys())

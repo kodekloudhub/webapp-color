@@ -1,8 +1,8 @@
-FROM python:3.6-alpine
+FROM python:3.11.2-alpine3.17
 
 RUN pip install flask
 
-RUN apk add awscli
+RUN apk add aws-cli
 
 COPY . /opt/
 
